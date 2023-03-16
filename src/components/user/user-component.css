@@ -1,0 +1,113 @@
+.user__component__card {
+    border: 1px solid rgb(196, 192, 192);
+    margin: 2px;
+    height: 415px;
+    width: 480px;
+    margin: 30px 0px;
+}
+
+.user__card__avatar {
+    height: 200px;
+    width: 100%;
+    border-bottom: 1px solid rgb(225, 222, 222) ;
+}
+
+.user__card__avatar > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    color: rgba(0,0,0,.65);
+}
+
+.user__component__details {
+    display: flex;
+    padding: 5px 20px;
+    height: 160px;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.user__component__details .user__details__row {
+    width: 100%;
+    margin: 5px 0px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.user__component__details .user__details__name {
+    font-size: 18px;
+    color: rgba(0,0,0,.85);
+}
+
+.user__detail__icon {
+    margin-right: 10px;
+}
+
+.user__buttons__group {
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgb(225, 222, 222) ;
+    background-color: rgba(233, 222, 222, 0.45);
+}
+
+.user__buttons__group .user__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.like__button {
+    color: red;
+}
+
+.user__grey__icon {
+    color: rgb(172, 172, 172);
+}
+
+.user__edit__container {
+    padding: 20px;
+}
+
+.user__edit__popup__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.close__button {
+    padding: 2px;
+    cursor: pointer;
+}
+
+.user__prefill__data__form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 20%;
+}
+
+
+.user__footer_button__group {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.user__edit__buttons {
+    margin: 0px 10px;
+    padding: 5px 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(239, 239, 240);
+}
+
+.ok__button {
+    background-color: #40a9ff;
+    color: #fff;
+}

@@ -1,0 +1,17 @@
+.custom__input  {
+    margin: 10px 0px;
+}
+
+.custom__input .required__field {
+    color: red;
+}
+
+.custom__input label{
+    margin-right: 15px;
+    width: 80px;
+}
+
+.custom__input input {
+    padding: 5px;
+    font-size: 14px;
+}
